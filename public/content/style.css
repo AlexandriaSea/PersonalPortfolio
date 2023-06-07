@@ -1,0 +1,12 @@
+/*
+ * File: style.css
+ * Name: Wenjie Zhou
+ * ID: 301337168
+ * Date: Jun 6, 2023
+ */
+
+ /* Set style for main content */
+.container{
+    height: 100vh;
+    overflow-y: scroll;
+}
