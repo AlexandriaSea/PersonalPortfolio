@@ -10,7 +10,7 @@ This portfolio was created using Next.js with support from the Once UI library. 
 
 **1. Clone the Repository**
 ```
-git clone https://github.com/AlexandriaSea/PersonalPortfolio.git
+git clone https://github.com/once-ui-system/magic-portfolio.git
 ```
 
 **2. Install dependencies**
