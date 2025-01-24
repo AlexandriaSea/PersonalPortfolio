@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Full-stack developer",
+  role: "Full-stack Developer",
   avatar: "/images/avatar.jpg",
   location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Chinese"], // optional: Leave the array empty if you don't want to display languages
@@ -51,7 +51,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Full-stack developer</>,
+  headline: <>Full-stack Developer</>,
   subline: (
     <>
       I'm Wenjie, a recent graduate of the Software Engineering Technology program at <InlineCode>Centennial College</InlineCode>.
@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Wenjie is a highly motivated and results-driven Full-Stack Developer
+        Wenjie is a highly motivated Full-Stack Developer
         based in Toronto with a passion for building innovative web applications.
         He possesses a strong foundation in both front-end and back-end development,
         with expertise in languages including Python, JavaScript, and Java,
@@ -245,43 +245,43 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/skill-1-01.jpg",
+            src: "/images/skills/skill-1-01.jpg",
             alt: "Skill 101 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-1-02.jpg",
+            src: "/images/skills/skill-1-02.jpg",
             alt: "Skill 102 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-1-03.jpg",
+            src: "/images/skills/skill-1-03.jpg",
             alt: "Skill 103 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-1-04.jpg",
+            src: "/images/skills/skill-1-04.jpg",
             alt: "Skill 104 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-1-05.jpg",
+            src: "/images/skills/skill-1-05.jpg",
             alt: "Skill 105 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-1-06.jpg",
+            src: "/images/skills/skill-1-06.jpg",
             alt: "Skill 106 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-1-07.jpg",
+            src: "/images/skills/skill-1-07.jpg",
             alt: "Skill 107 image",
             width: 5,
             height: 5,
@@ -294,37 +294,37 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/skill-2-01.jpg",
+            src: "/images/skills/skill-2-01.jpg",
             alt: "Skill 201 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-2-02.jpg",
+            src: "/images/skills/skill-2-02.jpg",
             alt: "Skill 202 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-2-03.jpg",
+            src: "/images/skills/skill-2-03.jpg",
             alt: "Skill 203 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-2-04.jpg",
+            src: "/images/skills/skill-2-04.jpg",
             alt: "Skill 204 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-2-05.jpg",
+            src: "/images/skills/skill-2-05.jpg",
             alt: "Skill 205 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-2-06.jpg",
+            src: "/images/skills/skill-2-06.jpg",
             alt: "Skill 206 image",
             width: 5,
             height: 5,
@@ -337,31 +337,31 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/skill-3-01.jpg",
+            src: "/images/skills/skill-3-01.jpg",
             alt: "Skill 301 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-3-02.jpg",
+            src: "/images/skills/skill-3-02.jpg",
             alt: "Skill 302 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-3-03.jpg",
+            src: "/images/skills/skill-3-03.jpg",
             alt: "Skill 303 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-3-04.jpg",
+            src: "/images/skills/skill-3-04.jpg",
             alt: "Skill 304 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-3-05.jpg",
+            src: "/images/skills/skill-3-05.jpg",
             alt: "Skill 305 image",
             width: 5,
             height: 5,
@@ -374,37 +374,37 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/skill-4-01.jpg",
+            src: "/images/skills/skill-4-01.jpg",
             alt: "Skill 401 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-4-02.jpg",
+            src: "/images/skills/skill-4-02.jpg",
             alt: "Skill 402 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-4-03.jpg",
+            src: "/images/skills/skill-4-03.jpg",
             alt: "Skill 403 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-4-04.jpg",
+            src: "/images/skills/skill-4-04.jpg",
             alt: "Skill 404 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-4-05.jpg",
+            src: "/images/skills/skill-4-05.jpg",
             alt: "Skill 405 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-4-06.jpg",
+            src: "/images/skills/skill-4-06.jpg",
             alt: "Skill 406 image",
             width: 5,
             height: 5,
@@ -417,43 +417,43 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/skill-5-01.jpg",
+            src: "/images/skills/skill-5-01.jpg",
             alt: "Skill 501 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-5-02.jpg",
+            src: "/images/skills/skill-5-02.jpg",
             alt: "Skill 502 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-5-03.jpg",
+            src: "/images/skills/skill-5-03.jpg",
             alt: "Skill 503 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-5-04.jpg",
+            src: "/images/skills/skill-5-04.jpg",
             alt: "Skill 504 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-5-05.jpg",
+            src: "/images/skills/skill-5-05.jpg",
             alt: "Skill 505 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-5-06.jpg",
+            src: "/images/skills/skill-5-06.jpg",
             alt: "Skill 506 image",
             width: 5,
             height: 5,
           },
           {
-            src: "/images/projects/project-01/skill-5-07.jpg",
+            src: "/images/skills/skill-5-07.jpg",
             alt: "Skill 507 image",
             width: 5,
             height: 5,
